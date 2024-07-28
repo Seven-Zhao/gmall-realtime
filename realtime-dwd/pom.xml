@@ -7,6 +7,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>realtime-dwd</artifactId>
-    <name>Archetype - realtime-dwd</name>
-    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hwcloud</groupId>
+            <artifactId>realtime-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+
 </project>
